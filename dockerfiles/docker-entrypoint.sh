@@ -136,8 +136,6 @@ if [ $DRY_RUN -eq 1 ]; then
 fi
 
 #
-touch /var/run/uwsgi-logrotate
-chown -R searx:searx /var/log/uwsgi /var/run/uwsgi-logrotate
 unset MORTY_KEY
 
 # Start uwsgi
