@@ -1,10 +1,10 @@
-certifi==2022.6.15
+certifi==2023.7.22
 babel==2.10.3
 flask-babel==2.0.0
-flask==2.1.2
+flask==2.2.5
 jinja2==3.1.2
 lxml==4.9.0
-pygments==2.12.0
+pygments==2.15.0
 python-dateutil==2.8.2
 pyyaml==6.0
 httpx[http2]==0.21.2
@@ -13,6 +13,8 @@ uvloop==0.16.0
 httpx-socks[asyncio]==0.7.2
 langdetect==1.0.9
 setproctitle==1.2.3
-redis==4.3.3
-markdown-it-py==2.1.0
+redis==4.3.6
+markdown-it-py==2.2.0
 typing_extensions==4.2.0
+httpx>=0.23.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
